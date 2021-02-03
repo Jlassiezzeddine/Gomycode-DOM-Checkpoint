@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Shop Cart</title>
+    <link rel="stylesheet" href="/assets/style/style.css" />
+    <link rel="stylesheet" href="/assets/vendors/bootstrap/bootstrap.min.css" />
+  </head>
+  <body>
+    <main>
+      <section id="main--section">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-6">
+              <div class="shopping--cart">
+                <div class="shopping--cart--title"><h2>Shopping Cart</h2></div>
+                <div class="shopping--cart--list">
+                  <div class="shopping--cart--item">
+                    <div class="shopping--cart--item--like"></div>
+                    <div class="shopping--cart--item--img"></div>
+                    <div class="shopping--cart--item--name"></div>
+                    <div class="shopping--cart--item--quantity"></div>
+                    <div class="shopping--cart--item--price"></div>
+                    <div class="shopping--cart--item--remove"></div>
+                  </div>
+                </div>
+                <div class="shopping--cart-bottom">
+                  <div class="shopping--cart--shop-button"></div>
+                  <div class="shopping--cart--subtotal">
+                    <div class="shopping--cart--subtotal--text"></div>
+                    <div class="shopping--cart--subtotal--value"></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-6">
+              <div class="card--details">
+                <div class="card--details--title"><h2>Card Details</h2></div>
+                <div class="card--details--card--type">
+                  <div class="card--details--card--type--visa"></div>
+                  <div class="card--details--card--type--mastercard"></div>
+                </div>
+                <form class="card--details--form">
+                  <label for="name" id="name">Name on Card</label>
+                  <input
+                    type="text"
+                    name="name"
+                    id="name"
+                    placeholder="John Doe"
+                  />
+                  <label for="card-number" id="card-number">Card Number</label>
+                  <input
+                    type="text"
+                    name="card-number"
+                    id="card-number"
+                    placeholder="**** **** **** ****"
+                  />
+                  <input type="submit" value="Check Out" />
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+  </body>
+  <script src="/assets/vendors/jquery/jquery-3.5.1.min.js"></script>
+  <script src="/assets/vendors/bootstrap/bootstrap.bundle.min.js"></script>
+  <script src="/assets/js/main.js"></script>
+</html>
