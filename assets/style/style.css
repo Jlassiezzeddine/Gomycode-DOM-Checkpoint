@@ -1,0 +1,173 @@
+/*------------------- 1- Style Reset --------------------------*/
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol,
+ul {
+  list-style: none;
+}
+
+blockquote,
+q {
+  quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+button {
+  border: none;
+  background: none;
+  outline: none;
+}
+
+/*------------------- 2- Variables --------------------------*/
+/*------------------- 3- Layout --------------------------*/
+#main--section {
+  height: 100vh;
+  width: 100%;
+  background-color: #f5f6f6;
+  display: grid;
+  place-items: center;
+}
+
+.shopping--cart {
+  background-color: burlywood;
+  padding-top: 2rem;
+}
+.shopping--cart .shopping--cart--title h2 {
+  font-size: 1.8rem;
+  font-weight: bold;
+}
+.shopping--cart .shopping--cart--list {
+  padding: 1rem 0;
+}
+.shopping--cart .shopping--cart--list .shopping--cart--item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.shopping--cart .shopping--cart--list .shopping--cart--item .shopping--cart--item--like,
+.shopping--cart .shopping--cart--list .shopping--cart--item .shopping--cart--item--remove {
+  cursor: pointer;
+}
+.shopping--cart .shopping--cart--list .shopping--cart--item .shopping--cart--item--name h4 {
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+/*# sourceMappingURL=style.css.map */

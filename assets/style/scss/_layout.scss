@@ -1,0 +1,34 @@
+/*------------------- 3- Layout --------------------------*/
+
+#main--section {
+  height: 100vh;
+  width: 100%;
+  background-color: $light;
+  display: grid;
+  place-items: center;
+}
+
+.shopping--cart {
+  background-color: burlywood;
+  padding-top: 2rem;
+  .shopping--cart--title h2 {
+    font-size: 1.8rem;
+    font-weight: bold;
+  }
+  .shopping--cart--list {
+    padding: 1rem 0;
+    .shopping--cart--item {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      .shopping--cart--item--like,
+      .shopping--cart--item--remove {
+        cursor: pointer;
+      }
+      .shopping--cart--item--name h4 {
+        font-size: 1.2rem;
+        font-weight: bold;
+      }
+    }
+  }
+}

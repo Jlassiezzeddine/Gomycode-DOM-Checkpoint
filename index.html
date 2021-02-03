@@ -12,19 +12,41 @@
       <section id="main--section">
         <div class="container">
           <div class="row">
-            <div class="col-lg-6">
+            <div class="col-lg-7">
               <div class="shopping--cart">
                 <div class="shopping--cart--title"><h2>Shopping Cart</h2></div>
-                <div class="shopping--cart--list">
-                  <div class="shopping--cart--item">
-                    <div class="shopping--cart--item--like"></div>
-                    <div class="shopping--cart--item--img"></div>
-                    <div class="shopping--cart--item--name"></div>
-                    <div class="shopping--cart--item--quantity"></div>
-                    <div class="shopping--cart--item--price"></div>
-                    <div class="shopping--cart--item--remove"></div>
-                  </div>
-                </div>
+                <ul class="shopping--cart--list">
+                  <li class="shopping--cart--item">
+                    <div class="shopping--cart--item--like">
+                      <img
+                        width="20px"
+                        src="/assets/images/icons/heart.svg"
+                        alt=""
+                      />
+                    </div>
+                    <div class="shopping--cart--item--img">
+                      <img
+                        width="120px"
+                        src="/assets/images/food/NicePng_pasta-png_430460.png"
+                        alt=""
+                      />
+                    </div>
+                    <div class="shopping--cart--item--name">
+                      <h4>Spicy Mac</h4>
+                    </div>
+                    <div class="shopping--cart--item--quantity">
+                      <input type="number" name="quantity" id="quantity" />
+                    </div>
+                    <div class="shopping--cart--item--price">50$</div>
+                    <div class="shopping--cart--item--remove">
+                      <img
+                        width="20px"
+                        src="/assets/images/icons/trash.svg"
+                        alt=""
+                      />
+                    </div>
+                  </li>
+                </ul>
                 <div class="shopping--cart-bottom">
                   <div class="shopping--cart--shop-button"></div>
                   <div class="shopping--cart--subtotal">
@@ -34,7 +56,7 @@
                 </div>
               </div>
             </div>
-            <div class="col-lg-6">
+            <div class="col-lg-5">
               <div class="card--details">
                 <div class="card--details--title"><h2>Card Details</h2></div>
                 <div class="card--details--card--type">
