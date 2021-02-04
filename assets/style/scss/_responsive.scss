@@ -1,0 +1,30 @@
+@media screen and (max-width: 767px) {
+  table,
+  thead,
+  tbody,
+  th,
+  td,
+  tr {
+    display: inline-block;
+    text-align: center;
+    width: 100%;
+  }
+  td {
+    width: 50%;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+  }
+  .shopping--cart--quantity {
+    width: 100%;
+  }
+  .shopping--cart--quantity--input {
+    width: 100%;
+    margin: 0 auto;
+  }
+
+  .card--details--wrapper {
+    margin-top: 4rem;
+    max-width: unset;
+    border-radius: 0;
+  }
+}
