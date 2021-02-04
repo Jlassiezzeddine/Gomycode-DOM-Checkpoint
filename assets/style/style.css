@@ -310,7 +310,8 @@ td {
 .shopping--cart--bottom-wrapper {
   display: flex;
   justify-content: space-between;
-  padding: 2rem 3rem 0 3rem;
+  padding: 0 3rem;
+  margin-top: 2rem;
   background-color: #f5f6f6;
 }
 .shopping--cart--bottom-wrapper .shopping--cart--bottom--shop-btn {
@@ -347,8 +348,8 @@ td {
 }
 
 .card--details--wrapper {
-  /* max-width: 340px;
-  margin-left: auto; */
+  max-width: 340px;
+  margin-left: auto;
   padding: 1rem;
   border-radius: 3px;
   background-image: linear-gradient(135deg, #41434b, #2c2d31);
