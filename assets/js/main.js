@@ -1,8 +1,3 @@
-//The Like Button
-//------ When Clicked the heart turns to red
-//------ Popup says "This item has been added to wishlist"
-//------ We can remove from wishlist by clicking on the red heart
-
 //Cart Items Object
 let cartItems = [
   {
@@ -107,7 +102,7 @@ inputContainer.forEach((input) => {
   //Incrementing Function
   quantityPlus.addEventListener("click", function () {
     let inputValue = quantityInput.getAttribute("value");
-    if (inputValue < 100) {
+    if (inputValue < 20) {
       //Updating Quantity Value
       quantityInput.stepUp();
       inputValue++;
@@ -159,5 +154,23 @@ document.querySelectorAll(".shopping--cart--remove i").forEach((remove) => {
     cartItemEl = remove.parentElement.parentElement;
     cartItemEl.remove();
     updateSubtotals();
+  });
+});
+
+//The Like Button
+//------ When Clicked the heart turns to red
+likeOutlined = document.querySelectorAll(".shopping--cart--like .outlined");
+likeFilled = document.querySelectorAll(".shopping--cart--like .filled");
+
+likeOutlined.forEach((outlined) => {
+  var i = 0;
+  outlined.addEventListener("click", (e) => {
+    if (i % 2 === 0) {
+      i++;
+      outlined.children[0].style.opacity = "1";
+    } else {
+      i++;
+      outlined.children[0].style.opacity = "0";
+    }
   });
 });
