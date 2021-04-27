@@ -158,6 +158,19 @@ tbody::-webkit-scrollbar-thumb {
   background-color: #676971;
 }
 
+.card--details--form input:-webkit-autofill,
+.card--details--form input:-webkit-autofill:hover,
+.card--details--form input:-webkit-autofill:focus,
+.card--details--form textarea:-webkit-autofill,
+.card--details--form textarea:-webkit-autofill:hover,
+.card--details--form textarea:-webkit-autofill:focus,
+.card--details--form select:-webkit-autofill,
+.card--details--form select:-webkit-autofill:hover,
+.card--details--form select:-webkit-autofill:focus {
+  transition: background-color 5000s ease-in-out 0s;
+  -webkit-text-fill-color: white;
+}
+
 /*------------------- 3- Layout --------------------------*/
 #main--section {
   height: 100vh;

@@ -4,19 +4,19 @@ let cartItems = [
     itemName: "Pasta",
     itemSku: "21456",
     itemUnitPrice: 10,
-    itemImage: "/assets/images/food/pasta.png",
+    itemImage: "./assets/images/food/pasta.png",
   },
   {
     itemName: "Caesars",
     itemSku: "20983",
     itemUnitPrice: 16,
-    itemImage: "/assets/images/food/caesars.png",
+    itemImage: "./assets/images/food/caesars.png",
   },
   {
     itemName: "Imperial",
     itemSku: "35981",
     itemUnitPrice: 24,
-    itemImage: "/assets/images/food/imperial.png",
+    itemImage: "./assets/images/food/imperial.png",
   },
 ];
 let subtotalValue = 0;
